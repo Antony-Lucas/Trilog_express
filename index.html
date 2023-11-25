@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="./presets/trilogw.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilog - Início</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#" class="navbar-logo">
+                <img src="./presets/trilogw.png" alt="Logo">
+                <div>
+                    <h1>TRILOG</h1>
+                    <p>Transportes</p>
+                </div>
+            </a>
+        </div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu" style="display: flex; top: -150%;">
+            <li><a href="#" onclick="Closed()">Home</a></li>
+            <li><a href="#services" onclick="Closed()">Serviços</a></li>
+            <li><a href="#crew" onclick="Closed()">Parceiros</a></li>
+            <li><a href="#contact" onclick="Closed()">Contato</a></li>
+            <li><a href="#about" onclick="Closed()">Sobre</a></li>
+
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            
+        </ul>
+    </header>
+    <section>
+        <div class="home-content">
+            <div class="home-slogan" data-aos="fade-up">
+                <h1>sinônimo de Agilidade e confiança em todo nordeste do pará !</h1>
+            </div>
+            <div class="home-map">
+                <img src="./img/para_state1.png" alt="Mapa das Cidades">
+                <p data-aos="fade-right">Entregando suas encomendas em Ourém, Garrafão, Piriá e Capitão poço</p>
+            </div>
+        </div>
+        <div class="home-scroll">
+            <a href="#services"><img  src="./presets/scroll-down.svg" alt="Rolar para baixo"></a>
+        </div>
+
+        <div class="services" id="services">
+            <div class="services-title">
+                <h1>Nossos Serviços</h1>
+                <p>Tenha uma das melhores experiências em transportes da sua vida!</p>
+            </div>
+            <div class="services-cards">
+                <div data-aos="fade-up">
+                    <h1>seja nosso cliente</h1>
+                    <a href="https://wa.me/5591985074046?text=nos diga seu nome e vamos conversar!" target="_blank">Vamos la!</a>
+                </div>
+                <div data-aos="fade-up">
+                    <h1>seja nosso Parceiro</h1>
+                    <a href="https://wa.me/5591985074046?text=nos diga seu nome e vamos trabalhar juntos!" target="_blank">Vamos la!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="crew">
+            <div class="crew-parse" id="crew">
+                <h1>Parceiros:</h1>
+                <a data-aos="fade-up" href="https://nbllog.com.br/" target="_blank"><img src="./img/Logo-Home-Norte-Brasil-Logistica-ok.png" alt="nbl log"></a>
+            </div>
+            <div class="crew-mail">
+                <h1>Realizamos entregas para:</h1>
+                <div class="crew-links">
+                    <a data-aos="fade-right" data-aos-delay="800" href="https://www.favorita.com.br/" target="_blank"><img src="./img/logo_favorita_transportes.png" alt="Favorita transportes"></a>
+                    <a data-aos="fade-right" data-aos-delay="600"href="http://www.atualcargas.com.br/" target="_blank"><img src="./img/atualCargas.png" alt="Atual cargas"></a>
+                    <a data-aos="fade-right" data-aos-delay="400"href="https://www.vitlog.com.br/" target="_blank"><img src="./img/vitlog_logo.png" alt="Vitlog Transportes"></a>
+                    <a data-aos="fade-right" data-aos-delay="200"href="https://www.directlog.com.br/" target="_blank"><img src="./img/logo_normal.svg" alt="Direct log"></a>
+                    <a data-aos="fade-right" data-aos-delay="100"href="https://www.tnt.com/express/pt_br/site/home.html" target="_blank"><img src="./img/tnt-logo@2x.png" alt="TNT transportes"></a>
+                    <a data-aos="fade-right" href="https://www.mira.com.br/" target="_blank"><img src="./img/mirat.jpg" alt="Mira transportes"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div>
+                <h1 data-aos="fade-up">Entre em contato conosco!</h1>
+                <a data-aos="fade-up" href="https://wa.me/5591985074046?text=nos diga seu nome e vamos conversar!" target="_blank">Clique aqui</a>
+            </div>
+        </div>
+        
+        <div class="about" id="about">
+            <h1>Um pouco sobre nós</h1>
+            <p>Somos uma empresa que atua no mercado desde 2017.
+                Desde então estamos trabalhando da melhor maneira possível para entregar aos
+                nossos clientes e parceiros a melhor experiência em transportes para a sua encomenda
+                chegar até você. 
+            </br>
+                Seja grande ou pequena, nós cuidamos com total qualidade e segurança!
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="trilog">
+            <img src="./presets/trilogw.png" alt="trilog logo">
+            <p>&copy;TRILOG TRANSPORTES todos os direitos reservados | 2023</p>
+        </div>
+    </footer>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1500 });</script>
+    <script src="./JS/scrip.js"></script>
+</body>
+</html>
